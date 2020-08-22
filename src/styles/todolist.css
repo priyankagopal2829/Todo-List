@@ -1,0 +1,80 @@
+.mainContainer{
+    display:flex;
+    flex-direction:row;
+}
+.date{
+    width:50%;
+    height:2rem;
+    border:1px solid white
+}
+.time{
+     width:50%;
+    height:2rem;
+    border:1px solid white
+}
+/* left */
+.leftContainer{
+    background:#D1D0CE;
+    width:35%;
+    height:44.7rem;
+    color:black; 
+}
+.leftPannel{
+     text-align:left;
+     margin-left:12%    
+}
+.todoList{
+    font-weight:bold;
+    font-size:23px
+}
+.boxContainer{
+    padding-top:5%
+}
+.name{
+    width:50%;
+    height:2rem;
+    border-radius:5px;
+    border-color:white;
+    border:1px solid white
+}
+.message{
+    height:3rem;
+    width:50%;
+    border-radius:5px;
+    border:1px solid white
+}
+.buttonContainer{
+    width:20%;
+    height:2rem;
+    background-color:white;
+    border-color:white;
+    border-radius:5px
+}
+
+/* right */
+.rightContainer{
+    width:65%;
+    height:44.7rem;
+    background:#98AFC7;
+
+}
+.rightPannel{
+    padding-top:2%
+}
+.list{
+   background:#E5E4E2;
+   width:10%;
+   height:1rem;
+   border:1px solid grey
+}
+.list1{
+   width:8%;
+   height:1rem;
+   border:1px solid #151B54;
+      color:white
+}
+.delete{
+    background:red;
+    border:1px solid red;
+    color:white
+}
